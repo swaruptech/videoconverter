@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mp4 to Mp3 in Node.js</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<script type="text/javascript">
+  prompt("Enter Your UserName")
+</script>
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="nav">
+      <img src="https://img.icons8.com/nolan/64/video.png" />
+      <a class="text-center"  href="#">VIDEO CONVERTER</a>
+    </nav>
+    <br>
+    <div class="container">
+      <br><br>
+      <h2 contenteditable="true" class="text-center">
+        CONVERT VIDEO TO MP3
+      </h2>
+      <br><br>
+
+      <form action="/convert" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+          <input type="file" class="form-control" name="file" required>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-block btn-primary">
+            Convert to Mp3
+          </button>
+        </div>
+      </form>
+      <section class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="title">
+        </div>
+      </section>
+
+    </div>
+  </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</html>
+
+<!-- 
+<div class="container">
+  <div class="box">
+  <div class="cube"></div>
+  </div>
+</div> -->
